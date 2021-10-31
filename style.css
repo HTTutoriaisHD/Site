@@ -5,6 +5,7 @@
     background-color: aquamarine;
     text-align: center;
 }
-.rodape{
+#rodape{
     background-color: black;
+    align-items: center;
 }
