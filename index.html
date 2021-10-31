@@ -16,7 +16,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light" id="nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/HT.jpg" class="rounded-circle" width="10px" height="10px"></a>
+          <a class="navbar-brand" href="#"><img src="img/HT.jpg" class="rounded-circle" width="70px" height="70px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,7 +37,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="https://www.youtube.com/user/hudsontutoriaishd2">Youtube</a></li>
-                  <li><a class="dropdown-item" href="https://www.instagram.com/hudson_tinho/">Instagran</a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/hudson_tinho/">Instagram</a></li>
                   <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5588993308810&text=HTTutoriaisHD%20est%C3%A1%20esperando%20o%20seu%20contato.">Whatsapp</a></li>
                 </ul>
               </li>
@@ -47,7 +47,9 @@
       </nav>
 
       <!--Carossel-->
-
+<div class="container">
+  <div class="row">
+    <div class="col">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" id="carrossel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -56,13 +58,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/1.png" class="d-block w-100" alt="Efeitos em textos" width="70%">
+            <img class="img-fluid img-thumbnail" src="img/1.png" class="d-block w-100" alt="Efeitos em textos" width="90%">
           </div>
           <div class="carousel-item">
-            <img src="img/2.png" class="d-block w-100" alt="Usando ferramenta caneta" width="70%">
+            <img class="img-fluid img-thumbnail" src="img/2.png" class="d-block w-100" alt="Usando ferramenta caneta" width="90%">
           </div>
           <div class="carousel-item">
-            <img src="img/3.png" class="d-block w-100" alt="Remover fundo de imagem" width="70%">
+            <img class="img-fluid img-thumbnail" src="img/3.png" class="d-block w-100" alt="Remover fundo de imagem" width="90%">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -74,6 +76,9 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
+  </div>
+</div>
 
       <!--jumbotron-->
 
@@ -100,7 +105,24 @@
           </div>
           </div>
       </div>
-
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Não compartilharemos seu e-mail com mais ninguém.</div>
+        </div>
+        
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Desejo Receber News-Later</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+<footer class="">
+  <img src="img/instagram.png" alt="Instagram">
+  <img src="img/telefone.png" alt="telefone">
+  <img src="img/whatsapp-logo-1.png" alt="Whatsapp">
+</footer>
       
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
